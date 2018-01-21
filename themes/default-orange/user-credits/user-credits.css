@@ -1,0 +1,214 @@
+#user-credits-container {
+    margin: 40px 0 0 0;
+}
+
+#user-credits-title-container {
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 15px 0;
+}
+
+#user-credits-title {
+    border-bottom: 4px solid #fba550;
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 -4px;
+    padding: 0 20px 7px 0;
+}
+.credits-tab {
+    width: 30%;
+    margin: 0 5% 0 0;
+}
+
+.credits-tab:last-child {
+    margin: 0 !important;
+}
+
+#payment-success-container {
+    border: 1px solid #7aba7a;
+    color: #7aba7a;
+    margin: 0 0 40px;
+    padding: 7px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#payment-failed-container {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    margin: 0 0 40px;
+    padding: 7px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#credits-available-container {
+    margin: 30px 0 0 0;
+}
+
+#credits-available-container span {
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+#credits-available-container label {
+    color: #999999;
+    display: inline-block;
+}
+
+#purchase-credits-container {
+    display: none;
+    margin: 30px 0 0 0;
+}
+
+#purchase-credits-show {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: top;
+    margin: 0 20px 0 0;
+    border-bottom: 1px dashed #999999;
+}
+
+#purchase-credits-buy {
+    vertical-align: top;
+}
+
+#purchase-credits-buy span {
+    display: inline-block;
+}
+
+#purchase-credits-x {
+    color: #999999;
+    font-size: 11px;
+    margin: 0 20px;
+}
+
+#credits-pack-quantity {
+    padding: 0;
+}
+
+#total-credits-container {
+    margin: 30px 0 0 0;
+}
+
+#total-credits-container label {
+    color: #999999;
+    width: 100px;
+    display: inline-block;
+}
+
+#total-price-container {
+    margin: 10px 0 0 0;
+}
+
+#total-price-container label {
+    color: #999999;
+    width: 100px;
+    display: inline-block;
+}
+
+#pay-button {
+    display: inline-block;
+    margin: 15px 10px 0 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#pay-loader {
+    margin: 10px 0 0 0;
+    display: none;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+#token-error {
+    margin: 10px 0 0 0;
+    color: #FF0000;
+    display: none;
+}
+
+#transactions-container {
+    margin: 30px 0 0 0;
+}
+
+#transactions-loader {
+    font-size: 18px;
+    color: #333;
+}
+
+.single-transaction {
+    background-color: #fcfcfc;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    margin: 0 0 20px;
+    padding: 8px;
+}
+
+.single-transaction:last-child {
+    margin: 0;
+}
+
+.transaction-field {
+    margin: 0 0 10px 0;
+}
+
+.transaction-not-completed {
+    color: #999999;
+    font-size: 12px;
+}
+
+.transaction-failed {
+    color: #FF0000;
+    font-size: 12px;
+}
+
+.transaction-field:last-child {
+    margin: 0 !important;
+}
+
+.single-transaction label {
+    display: inline-block;
+    width: 130px;
+}
+
+
+/* RTL */
+.rtl-language #user-credits-title {
+    padding: 0 0 7px 20px;
+}
+.rtl-language .credits-tab {
+    margin: 0 0 0 5%;
+}
+
+.rtl-language #credits-available-container span {
+    margin: 0 0 0 10px;
+}
+
+.rtl-language #pay-button {
+    margin: 15px 0 0 10px;
+}
+
+
+/* Responsiveness */
+@media screen and (min-width:320px) and (max-width:604px) {
+    #main-left-section {
+        margin: 0 0 60px 0;
+    }
+
+    #user-credits-container {
+        margin: 20px 0 0 0;
+    }
+
+    #credits-container-buttons button {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .single-transaction {
+        background-color: #fefefe;
+    }
+
+    #main-right-section {
+        display: none;
+    }
+}

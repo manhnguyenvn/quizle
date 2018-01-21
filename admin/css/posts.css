@@ -1,0 +1,223 @@
+/* Posts Languages View */
+#posts-languages-dropdown {
+    padding: 3px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    font-size: inherit;
+    font-family: inherit;
+    margin: 0 0 25px 0;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/* All Posts View */
+.post-in-page-id-td {
+	width: 100px;
+}
+
+.post-in-page-title-td {
+	width: 500px;
+}
+
+.post-in-page-status-td {
+	width: 100px;
+}
+
+#pages-link-container {
+	margin: 20px 0 0 0;
+	color: #777777;
+	font-size: 12px;
+}
+
+#all-posts-prev-page-link, #all-posts-next-page-link {
+	color: #336699;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+
+
+/* Posts In Page View */
+.post-no-image {
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #fefefe;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.2);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.post-in-page-title-td img {
+	display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    background-color: white;
+}
+
+.post-in-page-title-td .post-title {
+    margin: 0 0 0 15px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 310px;
+}
+
+.post-detailed-link-title {
+    display: inline-block;
+    vertical-align: middle;
+    color: #336699;
+    cursor: pointer;
+}
+
+.post-detailed-link .post-detailed-link-title:hover {
+    text-decoration: underline;
+}
+
+
+/* Post Detailed View */
+#post-detailed-container-close {
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
+
+#post-detailed-container {
+    width: 600px;
+    margin: 20px auto 20px auto;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+#post-info-status {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff9900;
+    color: white;
+    padding: 5px;
+}
+
+.post-info-status-published {
+    background-color: #92cd00 !important;
+}
+
+#post-info-delete-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #999999;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#post-info-delete-button:hover {
+    text-decoration: underline;
+}
+
+#post-info-container {
+    margin: 50px 0 0 0;
+}
+
+#post-info-container .post-no-image {
+    width: 100%;
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.2);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#post-info-text {
+    color: #333333; 
+    line-height: 1.4;
+}
+
+#post-info-title {
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    font-weight: 700;
+}
+
+#post-info-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666666;
+}
+
+#post-info-language {
+    margin: 35px 0 0 0;
+}
+
+.post-info-labels {
+    margin: 0 0 20px 0;
+}
+
+.post-info-labels label {
+    width: 140px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.post-info-label-content {
+    width: 450px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.post-info-label-content img {
+    width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+
+.post-info-label-content span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.post-info-label-content-light {
+    color: #999999;
+    margin: 0 0 0 5px;
+}
+
+#post-change-featured-status {
+    padding: 2px;
+    border: 1px solid #cccccc;
+    font-family: inherit;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#post-info-get-stats {
+    color: #ff9900;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#post-info-get-stats:hover {
+    text-decoration: underline;
+}
+
+#post-info-stats {
+    display: none;
+    margin: 40px 0 0 0;
+}

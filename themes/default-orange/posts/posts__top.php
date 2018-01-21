@@ -1,0 +1,1 @@
+<div id="posts-container-title-container"><h3 id="posts-container-title"><?= $__TAG_CURRENT ?></h3></div>

@@ -1,0 +1,37 @@
+Options -Indexes
+
+RewriteEngine on
+# Admin Index
+RewriteRule ^admin/$ admin/index.php [NC,L]
+
+# index
+RewriteRule ^([a-z]{2}-[A-Z]{2})$ ?language_code=$1 [NC,L]
+
+# profile
+RewriteRule ^profile/([0-9]{1,})$ profile.php?user_id=$1 [NC,L]
+RewriteRule ^([a-z]{2}-[A-Z]{2})/profile/([0-9]{1,})$ profile.php?language_code=$1&user_id=$2 [NC,L]
+
+# posts by tag
+RewriteRule ^([a-z]{2}-[A-Z]{2})/posts/tag/([0-9]{1,})/([^\.]+)$ posts.php?language_code=$1&tag_id=$2&tag_name=$3 [NC,L]
+RewriteRule ^posts/tag/([0-9]{1,})/([^\.]+)$ posts.php?tag_id=$1&tag_name=$2 [NC,L]
+
+# posts by cat
+RewriteRule ^([a-z]{2}-[A-Z]{2})/posts/cat/([0-9]{1,})/([^\.]+)$ posts.php?language_code=$1&cat_id=$2&cat_name=$3 [NC,L]
+RewriteRule ^posts/cat/([0-9]{1,})/([^\.]+)$ posts.php?cat_id=$1&cat_name=$2 [NC,L]
+
+# post
+RewriteRule ^([a-z]{2}-[A-Z]{2})/post/([0-9]{1,})/(.*)$ post.php?language_code=$1&post_id=$2&post_title=$2 [NC,L]
+RewriteRule ^post/([0-9]{1,})/([^\.]+)$ post.php?post_id=$1&post_title=$2 [NC,L]
+
+# user quiz
+RewriteRule ^([a-z]{2}-[A-Z]{2})/user-quiz/([0-9]{1,}\-PM)$ user-quiz.php?language_code=$1&post_id=$2 [NC,L]
+RewriteRule ^user-quiz/([0-9]{1,}\-PM)$ user-quiz.php?post_id=$1 [NC,L]
+RewriteRule ^([a-z]{2}-[A-Z]{2})/user-quiz/([0-9]{1,})$ user-quiz.php?language_code=$1&post_id=$2 [NC,L]
+RewriteRule ^user-quiz/([0-9]{1,})$ user-quiz.php?post_id=$1 [NC,L]
+
+# No parameter url : user-profile.php, user-credits.php, user-post-list.php, user-quiz.php, contact.php
+# No parameter url (with langauge code) :: en-US/user-profile => user-profile.php?language_code=en-US
+RewriteRule ^([a-z]{2}-[A-Z]{2})/([^\.]+)$ $2.php?language_code=$1 [NC,L]
+
+# No parameter url :: user-profile => user-profile.php
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

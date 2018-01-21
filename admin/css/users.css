@@ -1,0 +1,60 @@
+/* Users View */
+#users-pages-link-container {
+	margin: 20px 0 0 0;
+	color: #777777;
+	font-size: 12px;
+}
+
+#all-users-prev-page-link, #all-users-next-page-link {
+	color: #336699;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+
+
+/* Users In Page View */
+.users-in-page-id-td {
+    width: 100px;
+}
+
+.users-in-page-name-td {
+    width: 250px;
+}
+
+.users-in-page-name-td img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    width: 40px;
+}
+
+.users-in-page-name-td span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.users-in-page-source-td {
+    width: 100px;
+}
+
+.users-in-page-email-td {
+    width: 200px;
+}
+
+.users-in-page-email-td span {
+    font-size: 12px;
+    color: #999999;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.users-in-page-premium-td {
+    width: 100px;
+}
+
+.users-in-page-premium-td span {
+    font-size: 12px;
+    color: #777777;
+    display: block;
+    margin: 10px 0 0 0;
+}

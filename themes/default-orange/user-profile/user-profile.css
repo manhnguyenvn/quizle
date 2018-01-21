@@ -1,0 +1,214 @@
+#user-picture-name {
+    margin: 40px 0 40px 0;
+    display: table;
+}
+
+#user-picture-name img {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    width: 75px;
+    border-radius: 2px;
+}
+
+#user-name-container {
+    background-color: #fefefe;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    display: table-cell;
+    font-size: 18px;
+    font-weight: 700;
+    height: 75px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 2px 0 0 0;
+    box-sizing: border-box;
+}
+
+#user-name-inner-container {
+    background-color: rgba(248, 248, 248, 0.5);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    position: relative;
+}
+
+#user-name-container span {
+    border-bottom: 4px solid #fba550;
+    bottom: -4px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+}
+
+#user-email-container {
+    display: table;
+}
+
+#user-email-container label {
+    display: table-cell;
+    vertical-align: middle;
+    min-width: 85px;
+    margin: 7px 0 0 0;
+}
+
+#user-email-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#user-email {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    width: 250px;
+}
+
+#edit-email {
+    color: #999999;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#edit-email:hover {
+    text-decoration: underline;
+}
+
+#submit-email-button {
+    display: none;
+}
+
+#email-error-container {
+    color: red;
+    margin: 10px 0 0 0;
+    display: none;
+}
+
+#confirmation-code-container {
+    margin: 25px 0 0 0;
+    font-size: 13px;
+}
+
+#confirmation-code-message {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+#confirmation-code {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    width: 100px;
+}
+
+#confirmation-code-submit-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+}
+
+#resend-confirmation-code {
+    display: inline-block;
+    vertical-align: middle;
+    color: #999999;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+}
+
+#resend-confirmation-code:hover {
+    text-decoration: underline;
+}
+
+#confirmation-code-wrong {
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #FF0000;
+}
+
+#confirmation-code-correct {
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #92cd00;
+}
+
+#email-error-container-2 {
+    color: red;
+    margin: 10px 0 0 0;
+    display: none;
+}
+
+
+/* RTL */
+.rtl-language #user-picture-name img {
+    margin: 0 0 0 10px;
+}
+
+.rtl-language #user-name-container span {
+    padding: 0 0 0 15px;
+}
+
+.rtl-language .post-image {
+    padding: 0 0 0 1.5%;
+}
+
+.rtl-language #user-email-container label {
+    margin: 7px 0 0 10px;
+}
+
+.rtl-language #user-email {
+    margin: 0  0 0 10px;
+}
+
+.rtl-language #confirmation-code {
+    margin: 0  0 0 10px;
+}
+
+.rtl-language #confirmation-code-submit-button {
+    margin: 0  0 0 10px;
+}
+
+.rtl-language #resend-confirmation-code {
+    margin: 0  0 0 10px;
+}
+
+
+/* Responsiveness */
+@media screen and (min-width:320px) and (max-width:604px) {
+    #main-left-section {
+        margin: 0 0 60px 0;
+    }
+
+    #user-picture-name {
+        margin: 20px 0 20px 0;
+    }
+
+    #user-name-container span {
+        font-size: 14px;
+    }
+
+    #user-email {
+        width: 100%;
+    }
+
+    #edit-email {
+        margin: 10px 0 0 0;
+        display: inline-block;
+    }
+
+    #submit-email-button {
+        margin: 10px 0 0 0;
+    }
+
+    #resend-confirmation-code {
+        margin-top: 10px !important;
+    }
+
+    #confirmation-code-wrong, #confirmation-code-correct { 
+        margin: 10px 0 0 0;
+    }
+}

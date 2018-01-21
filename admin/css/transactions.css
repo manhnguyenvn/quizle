@@ -1,0 +1,75 @@
+/* Transactions View */
+#transactions-pages-link-container {
+	margin: 20px 0 0 0;
+	color: #999999;
+	font-size: 12px;
+}
+
+#all-transactions-prev-page-link, #all-transactions-next-page-link {
+	color: #336699;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+
+
+/* Transactions In Page View */
+.transaction-payment-not-completed {
+    background-color: #FFCCCB;
+}
+
+.transactions-in-page-name-td {
+    width: 200px;
+}
+
+.transactions-in-page-name-td img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    width: 32px;
+}
+
+.transactions-in-page-name-td span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+}
+
+.transaction-user-id {
+    display: block !important;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    color: #777777;
+}
+
+.transactions-in-page-status-td span {
+    font-size: 12px;
+    color: #777777;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+
+/* Pending Transactions View */
+.transaction-check-status {
+    color: #336699;
+    cursor: pointer;
+}
+
+.transaction-check-status:hover {
+    text-decoration: underline;
+}
+
+.transaction-completed {
+    color: green;
+}
+
+.transaction-failed {
+    color: red;
+}
+
+.transaction-recheck-message {
+    font-size: 12px;
+    color: #777777;
+    display: block;
+    margin: 10px 0 0 0;
+}

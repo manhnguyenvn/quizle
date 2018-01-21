@@ -1,0 +1,33 @@
+#statistics-search-date {
+	border: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    outline: medium none;
+    padding: 5px;
+    width: 100px;
+    margin: 0 0 25px 0;
+}
+
+#search-statistics {
+	background-color: #cccccc;
+    box-sizing: border-box;
+    color: #444;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+    margin: 0 0 0 20px;
+    padding: 4px;
+    width: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#statistics-data-table tr td:first-child {
+	font-weight: 700;
+	padding: 15px;
+}
+
+#statistics-data-table tr td:last-child {
+	min-width: 100px;
+	text-align: center;
+}

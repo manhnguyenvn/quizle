@@ -1,0 +1,298 @@
+/* Name & Logo Settings View */
+#site-logo-container {
+	width: 400px;
+	float: left;
+}
+
+#site-logo-container img {
+	max-height: 50px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#site-logo-change {
+	padding: 4px;
+	width: 60px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+	background-color: #cccccc;
+	color: #333333;
+	cursor: pointer;
+	float: left;
+	margin: 13px 50px 0 0;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#site-logo {
+	display: none;
+}
+
+#social-image-container {
+	width: 400px;
+	float: left;
+}
+
+#social-image-container img {
+	max-height: 100px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#social-image-change {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 60px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+	background-color: #cccccc;
+	color: #333333;
+	cursor: pointer;
+	float: left;
+	margin: 13px 50px 0 0;
+}
+
+#social-image {
+	display: none;
+}
+
+#site-settings-button {
+	border: 1px solid #ff6600;
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#site-settings-error {
+	color: #FF0000;
+	margin: 20px 0 0 0;
+}
+
+
+/* Sound Settings View */
+#correct-sound-container {
+	width: 400px;
+	float: left;
+	padding: 10px 0 0 0;
+}
+
+#correct-sound-name {
+	float: left;
+	padding: 5px 20px 0 0;
+	color: #999999;
+}
+
+#correct-sound-music {
+	width: 150px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#correct-sound-change {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 60px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+	background-color: #cccccc;
+	color: #333333;
+	cursor: pointer;
+	float: left;
+	margin: 0 50px 0 0;
+}
+
+#correct-sound {
+	display: none;
+}
+
+#wrong-sound-container {
+	width: 400px;
+	float: left;
+	padding: 10px 0 0 0;
+}
+
+#wrong-sound-name {
+	float: left;
+	padding: 5px 20px 0 0;
+	color: #999999;
+}
+
+#wrong-sound-music {
+	width: 150px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#wrong-sound-change {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 60px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+	background-color: #cccccc;
+	color: #333333;
+	cursor: pointer;
+	float: left;
+	margin: 0 50px 0 0;
+}
+
+#wrong-sound {
+	display: none;
+}
+
+#sound-settings-button {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#sound-settings-error {
+	color: #FF0000;
+	margin: 20px 0 0 0;
+}
+
+
+/* Email Settings View */
+#email-settings-button {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#email-settings-error {
+	color: #FF0000;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+}
+
+
+/* Premium Settings View */
+#premium-settings-button {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#premium-settings-error {
+	color: #FF0000;
+	margin: 20px 0 0 0;
+}
+
+
+/* Locale Settings View */
+#locale-settings-button {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#locale-settings-error {
+	color: #FF0000;
+	margin: 20px 0 0 0;
+}
+
+
+/* Ads Settings View */
+.form-element-extra {
+	margin: -18px 0 20px 0;
+}
+
+.form-element-extra-inner {
+	margin: 0 0 0 180px;
+	overflow: hidden;
+	width: 400px;
+}
+
+.form-element-extra-inner input[type="text"] {
+	padding: 3px;
+	box-sizing: border-box;
+	border: 1px solid #cccccc;
+	font-size: inherit;
+	font-family: inherit;
+	float: left;
+	outline: none;
+	line-height: 25px;
+	height: 25px;
+	width: 180px;
+}
+
+.form-element-extra-inner input[type="text"]:last-child {
+	float: right;
+}
+
+.form-element-extra-inner span {
+	width: 40px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+}
+
+#ads-settings-button {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#ads-settings-error {
+	color: #FF0000;
+	margin: 20px 0 0 0;
+}
+
+
+/* Login Settings View */
+#login-settings-button {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 4px;
+	width: 100px;
+	box-sizing: border-box;
+	font-family: inherit;
+	background-color: #ff9900;
+	color: white;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+
+#login-settings-error {
+	color: #FF0000;
+	margin: 20px 0 0 0;
+}
